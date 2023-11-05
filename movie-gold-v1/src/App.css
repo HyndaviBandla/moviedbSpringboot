@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  /* The box-sizing property allows us to include the padding and border in an element's total width and height.
+
+If you set box-sizing: border-box; on an element, padding and border are included in the width and height: */
+  font-family: "Quicksand" Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* all the components are children of app component */
+.App {
+  display: flex;
+  margin-top: 10px;
+  color: white;
+  min-height: 100vh;
+  flex-direction: column;
+  /* background-color: darkslategrey; */
+  background-color: black;
+}
